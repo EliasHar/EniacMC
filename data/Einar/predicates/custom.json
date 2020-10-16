@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "minecraft:player",
+		"location": {},
+		"distance": {},
+		"flags": {},
+		"equipment": {},
+		"vehicle": {},
+		"targeted_entity": {},
+		"player": {},
+		"fishing_hook": {},
+		"effects": {
+			"1": {
+				"amplifier": 1,
+				"duration": 1
+			}
+		}
+	}
+}
