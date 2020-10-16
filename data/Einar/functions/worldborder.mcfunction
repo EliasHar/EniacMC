@@ -9,7 +9,7 @@ execute if score UHC uhc matches 500 run bossbar set minecraft:uhc color red
 execute if score UHC uhc matches 0 run worldborder add -100 25 
 execute if score UHC uhc matches 0 run bossbar set minecraft:uhc visible false
 execute if score UHC uhc matches 0 run bossbar set minecraft:blink visible true
-execute if score UHC uhc matches ..0 run scoreboard players operation -UHC uhc = UHC uhc
+scoreboard players operation -UHC uhc = UHC uhc
 scoreboard players operation -UHC uhc *= number uhc
 execute if score UHC uhc matches ..0 store result bossbar minecraft:blink value run scoreboard players get -UHC uhc 
 execute if score UHC uhc matches -500 run bossbar set minecraft:blink visible false
