@@ -13,6 +13,6 @@ execute if score UHC uhc matches 0 run bossbar set minecraft:blink visible true
 scoreboard players operation -UHC uhc = UHC uhc
 scoreboard players operation -UHC uhc *= number uhc
 execute if score UHC uhc matches ..0 store result bossbar minecraft:blink value run scoreboard players get -UHC uhc
-function uhc:blink
+execute if score UHC uhc matches ..0 run function uhc:blink
 execute if score UHC uhc matches -500 run bossbar set minecraft:blink visible false
 execute if score UHC uhc matches ..-500 run scoreboard players set UHC uhc 6000
