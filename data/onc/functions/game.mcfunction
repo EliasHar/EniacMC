@@ -1,5 +1,6 @@
 # if you are hit with a special arrow then teleport to the Armourstand
 execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:10s}] at @e[tag=ONC_End] run teleport ~ ~ ~ 
+execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:10s}] run tellraw @a [{"selector":"@s","bold":"true","color":"gold"},{"text":" Is out of this round"}] 
 
 # giva a arrow if you have none
 

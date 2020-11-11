@@ -4,3 +4,5 @@ scoreboard players set Game ONC_Timer 1
 execute as @a[distance=..100] run give @s bow{Unbreakable:1b}
 # give everyone in 100 blocks a arrow
 execute as @a[distance=..100] run give @s minecraft:tipped_arrow{CustomPotionEffects:[{Id:26,Duration:1600,Amplifier:1b,ShowParticles:0b}],CustomPotionColor:4716007,display:{Name:"\"One In The Chamber\""}} 1
+# give a message that the game has started
+tellraw @a [{"text":"One in the Chamber is now starting","color": "gold"}]
