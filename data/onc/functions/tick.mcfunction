@@ -1,0 +1,1 @@
+execute if score Game ONC_Timer matches 1 run function onc:game
