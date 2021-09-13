@@ -1,0 +1,1 @@
+scoreboard players set timer glow_time 6001

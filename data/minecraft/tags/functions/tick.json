@@ -1,6 +1,7 @@
 {
 	"values": [
 		"onc:tick",
-		"exploding_bow:bow"
+		"exploding_bow:bow",
+		"timer:tick"
 	]
 }
