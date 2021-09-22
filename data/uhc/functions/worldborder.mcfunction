@@ -7,12 +7,12 @@ bossbar set minecraft:uhc name [{"text":"Zone shrinks in: ","bold":"ture","color
 execute if score UHC uhc matches 1500 run bossbar set minecraft:uhc color yellow
 execute if score Min uhc matches 2 if score sec uhc matches 0 run title @a actionbar {"text":"2 Minutes Left","color":"gold"}
 execute if score UHC uhc matches 500 run bossbar set minecraft:uhc color red
-execute if score UHC uhc matches 0 run worldborder add -100 25 
+execute if score UHC uhc matches 0 run worldborder add -650 125 
 execute if score UHC uhc matches 0 run bossbar set minecraft:uhc visible false
 execute if score UHC uhc matches 0 run bossbar set minecraft:blink visible true
 scoreboard players operation -UHC uhc = UHC uhc
 scoreboard players operation -UHC uhc *= number uhc
 execute if score UHC uhc matches ..0 store result bossbar minecraft:blink value run scoreboard players get -UHC uhc
 execute if score UHC uhc matches ..0 run function uhc:blink
-execute if score UHC uhc matches -500 run bossbar set minecraft:blink visible false
-execute if score UHC uhc matches ..-500 run scoreboard players set UHC uhc 6000
+execute if score UHC uhc matches -2500 run bossbar set minecraft:blink visible false
+execute if score UHC uhc matches ..-2500 run scoreboard players set UHC uhc 6000
