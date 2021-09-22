@@ -1,9 +1,10 @@
 # if you are hit with a special arrow then teleport to the Armourstand
 execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:5s}] at @e[tag=ONC_End] run teleport ~ ~ ~ 
 execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:5s}] run tellraw @a [{"selector":"@s","bold":true,"color":"gold"},{"text":" is out of this round","bold": false}] 
+execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:5s}] run clear @s bow{Unbreakable:1b}
 execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:5s}] run effect clear @s luck
 execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:5s}] run effect give @s instant_health 3 10 true
-execute as @a[nbt={ActiveEffects:[{Id:26b},{Amplifier:1b}]}] if entity @s[nbt={HurtTime:5s}] run clear @s bow{Unbreakable:1b}
+
 # giva a arrow if you have none
 
 # add to the timer  
