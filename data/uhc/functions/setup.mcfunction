@@ -11,6 +11,6 @@ bossbar add uhc ""
 bossbar add blink {"text":"World Border is Shrinking","color":"aqua"}
 bossbar set minecraft:uhc visible false
 bossbar set minecraft:blink visible false
-bossbar set minecraft:blink max 500
+bossbar set minecraft:blink max 2500
 bossbar set minecraft:uhc max 6000
 bossbar set minecraft:uhc style notched_12
