@@ -1,8 +1,8 @@
 # set up the score bords for Red ligth green ligth
 scoreboard objectives add Squid_light_x dummy "Squid Game Red Light Green Ligth X axis"
 scoreboard objectives add Squid_light_x1 dummy "Squid Game Red Light Green Ligth old X axis"
-scoreboard objectives add Squid_light_y dummy "Squid Game Red Light Green Ligth y axis"
-scoreboard objectives add Squid_light_y1 dummy "Squid Game Red Light Green Ligth old y axis"
+scoreboard objectives add Squid_light_z dummy "Squid Game Red Light Green Ligth z axis"
+scoreboard objectives add Squid_light_z1 dummy "Squid Game Red Light Green Ligth old z axis"
 # set up a score bord to keep track of if the red ligth is on
 scoreboard objectives add Squid_light dummy
 # set some default values
