@@ -8,4 +8,4 @@ scoreboard players set 20 glow_time 20
 
 scoreboard players set on glow_time 0
 
-say "Set the timer on the scoreboard in ticks (20 ticks in a second) scoreboard players set timer glow_time 6000 (5 min in ticks)"
+# "Set the timer on the scoreboard in ticks (20 ticks in a second) scoreboard players set timer glow_time 6000 (5 min in ticks)"

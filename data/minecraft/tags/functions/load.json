@@ -1,5 +1,6 @@
 {
 	"values": [
-		"timer:setup"
+		"timer:setup",
+		"squid_game:setup"
 	]
 }

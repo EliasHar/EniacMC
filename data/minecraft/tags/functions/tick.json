@@ -2,7 +2,7 @@
 	"values": [
 		"onc:tick",
 		"exploding_bow:bow",
-		"timer:tick"
+		"timer:tick",
 		"squid_game:tick"
 	]
 }
