@@ -3,5 +3,6 @@
 		"onc:tick",
 		"exploding_bow:bow",
 		"timer:tick"
+		"squid_game:tick"
 	]
 }
